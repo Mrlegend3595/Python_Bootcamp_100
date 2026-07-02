@@ -1,5 +1,6 @@
 from art import logo
 #Calculator
+
 #Add
 def add(n1, n2):
     """Adds two numbers together"""
@@ -54,7 +55,6 @@ def calculator():
         else:
             should_continue = False
             calculator()
-
 
 
 calculator()

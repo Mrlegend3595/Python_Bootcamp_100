@@ -1,8 +1,6 @@
-def my_function():
-    print("Hello")
-    print("Bye")
+# def my_function():
+#     print("Hello")
+#     print("Bye")
 
 
-my_function()
-
-# reborg.ca
+# my_function()
