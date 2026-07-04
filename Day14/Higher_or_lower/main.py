@@ -65,4 +65,6 @@ def game():
             return
 
 
+
+#my problem was replacing b_info with information for the next round.
 game()
