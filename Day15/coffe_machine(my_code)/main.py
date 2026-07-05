@@ -89,6 +89,7 @@ def coffee_machine():
                     if change > 0:
                         print(f"Here is ${change} dollars in change.")
 
+                    #for loop is good here use.
                     resources["water"] -= Menu[ask]["ingredients"]["water"]
                     resources["milk"] -= Menu[ask]["ingredients"]["milk"]
                     resources["coffee"] -= Menu[ask]["ingredients"]["coffee"]
