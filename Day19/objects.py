@@ -1,4 +1,3 @@
-import turtle
 import random
 from turtle import Turtle, Screen
 
@@ -35,7 +34,7 @@ while is_race_on:
         turtle.forward(rand_distance)
 
 
-#My Solution of oop challenge
+#My Solution of oop challenge2
 # timmy = Turtle(shape="turtle")
 # tommy = Turtle(shape="turtle")
 # benny = Turtle(shape="turtle")
