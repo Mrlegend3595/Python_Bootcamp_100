@@ -21,7 +21,7 @@ my_label.config(padx=20, pady=20)
 
 #Button
 def button_clicked():
-    my_label.config(text=input.get())
+    my_label.config(text=entry.get())
 
 button = tkinter.Button(text="Click Me",command=button_clicked)
 # button.pack()
@@ -30,8 +30,8 @@ button.grid(column=1, row=1)
 
 
 #Entry
-input = tkinter.Entry(width=10)
-input.grid(column=3, row=2)
+entry = tkinter.Entry(width=10)
+entry.grid(column=3, row=2)
 
 
 #new button
