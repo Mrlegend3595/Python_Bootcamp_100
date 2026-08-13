@@ -3,7 +3,7 @@ import time
 
 import random
 
-from Day22.Pong.paddle import Paddle
+from paddle import Paddle
 from ball import Ball
 from line import Line
 from scoreboard import Scoreboard

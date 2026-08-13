@@ -1,6 +1,6 @@
 #----------------CSV-----------------------
 
-#challenge 1
+# challenge 1
 # with open("weather_data.csv") as data_file:
 #     data = data_file.readlines()
 #     print(data)
@@ -22,7 +22,7 @@
 #----------------PANDAS---------------------
 import pandas as pd
 
-# data = pd.read_csv("weather_data.csv")
+data = pd.read_csv("weather_data.csv")
 # print(data)
 # print("--------------------------")
 # #challenge 2 with pandas. that is easier than csv
@@ -75,7 +75,7 @@ import pandas as pd
 # monday_temp = int(monday.temp)# without error must be monday.temp[0]
 # f = (1.8 * monday_temp) + 32
 # print(f)
-
+#
 
 
 
@@ -84,11 +84,11 @@ import pandas as pd
 
 
 #----------create a dataframe from scratch ---
-data_dict = {
-    "students":["Amy", "James", "Angela"],
-    "scores":[76, 56, 65],
-}
-data = pd.DataFrame(data_dict)
-data.to_csv("new_data.csv")
+# data_dict = {
+#     "students":["Amy", "James", "Angela"],
+#     "scores":[76, 56, 65],
+# }
+# data = pd.DataFrame(data_dict)
+# data.to_csv("new_data.csv")
 
 

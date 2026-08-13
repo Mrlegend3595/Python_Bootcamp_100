@@ -35,7 +35,7 @@ def calculate(n, **kwargs): # kwargs is a dict for use a key:value format
     # print(kwargs["add"])
 
     n += kwargs["add"]
-    n += kwargs["multiply"]
+    n *= kwargs["multiply"]
 
 calculate(2, add=3, multiply=5)
 
