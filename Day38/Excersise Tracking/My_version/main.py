@@ -37,7 +37,7 @@ Rules:
 Input: """ + user_input
 
 endpoint_gap = "https://api.gapgpt.app/v1"
-api_gap_key = 'sk-XlRME7QAXj4ET3Dol61jJoL9CfRiniG09m7oriB99ySiLQOq'
+api_gap_key = '<gapgpt key>'
 
 client = OpenAI(base_url=endpoint_gap, api_key=api_gap_key)
 
@@ -57,7 +57,7 @@ data = json.loads(data)
 exercises = data["exercises"]
 #-----------------------------------------------------------------------
 
-SHEET_URL = "https://api.sheety.co/1bfb8a613924691447605f0c90128481/workouts/sheet1"
+SHEET_URL = "Sheet_url"
 
 today = dt.now()
 now_time = today.time().strftime("%H:%M:%S")
@@ -76,5 +76,7 @@ for exercise in exercises:
 
     response = requests.post(SHEET_URL, json=add_row_params)
     print(response.text)
+    
+
 #https://sheety.co/
 
