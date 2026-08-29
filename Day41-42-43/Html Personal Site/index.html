@@ -6,13 +6,37 @@
     <meta name="keywords" content="cv">
     <meta name="author" content="Mohammadreza Davari">
     <!-- and more -->
+     <!-- in css external this code exist
+    <style>
+
+        body{
+            background-color: #FDF0D5;
+        }
+        hr{
+
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #2ecc71;
+            border-width:5px;
+            background-color: white;
+            width: 5%;
+
+        }
+        img{
+            height: 600px;
+        }
+    </style>
+    -->
+    <!-- external css is below -->
+    <link rel="stylesheet" href="css/styles.css">
     <title>Mohammadreza Personal Site</title>
 </head>
+<!-- Css code can exist in html tag or in style tag in head tag  -->
 <body>
 <table cellspacing="20">
     <tr>
         <td>
-            <img src="images/51dbd810-2df6-4cbe-8b56-678ce84af49c.png" alt="My picture" style="width: 230.0px; height: 250.0px">
+            <img class="up_page" src="images/51dbd810-2df6-4cbe-8b56-678ce84af49c-modified.png" alt="My picture" style="">
             <!--
              Photobucket : upload img and get link
              crop-circle.imageonline.co
@@ -30,13 +54,13 @@
     </tr>
 </table>
 
-<hr size="1" noshade>
+<hr>
 
 <p>im computer science student. Im python and html
     developer. my portfolio in <a href="https://github.com/Mrlegend3595">github</a>.<br>
     I Live in <em>Minab</em>.
 </p>
-<hr size="1" noshade>
+<hr>
 <h3>Education</h3>
 
 <ul>
@@ -52,8 +76,8 @@
     <li>Master of data structure</li>
 </ol>
 -->
-<hr noshade>
-<h3>Work Experience</h3>
+<hr>
+<h3 id="ex_key">Work Experience</h3>
 <!--
 <p>2022 - 2025 Developer of Sudoku App</p>
 <p>2026 Im work on my college project.</p>
@@ -89,7 +113,7 @@
     </tr>
 
 </table>
-<hr noshade>
+<hr>
 <h3>Skills</h3>
 <table border>
     <tr>
@@ -129,9 +153,11 @@
     </tr>
 
 </table>
-<hr noshade>
+<hr>
 <h3><a href="hobbies.html">Hobbies</a></h3>
 <h3><a href="contact_me.html">Contact Me</a></h3>
+<!-- ican use a more class in tag-->
+<img class="below_page circluar" src="images/51dbd810-2df6-4cbe-8b56-678ce84af49c-modified.png">
 
 </body>
 </html>

@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 200%;
+    /*font-size: 2em;
+    if i calling font size here then h1 inherit size of bode.
+    if h1 has font size then inherit size add+ to size of h1 .
+    this is just for dynamic size ; no stable*/
+}
+h1 {
+    /*font-size: 80px; this is static size*/
+    /*font-size: 562.5%; 100% is 16px , this is dynamic*/
+    /*font-size: 5.625em; 1em is 16px - this ois dynamic size*/
+    font-size: 5.625rem; /*rem this mean that no important from parent ,i just take size of here*/
+    margin: 50px auto 0 auto;
+    font-family: "Harmattan", sans-serif;
+    color: #66BFBF;
+    line-height: 2;
+
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+}
+/*css box model
+ inspect tool in chrome
+ margin - border - padding*/
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: right;
+    line-height: 2;
+}
+.profile-img{
+    height: 366px;
+}
+.code-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.chilli-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.noob{
+    text-decoration: underline;
+}
+/*
+.code-skill-description{
+    clear: right;
+}
+.chilli-skill-description{
+    clear: left;
+}*/
+hr{
+    display: block;
+    border-style: dotted;
+    border-top: #40514E solid;
+    height: 30px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- favicon: favorite icon
+        favicon.cc-->
+    <title>Mohammadreza Davari</title>
+</head>
+<body>
+
+<div class="middle-container">
+
+</div>
+<div class="bottom-container">
+</div>
+
+<div class="below-bottom">
+
+</div>
+ <!-- مثل div کاری خاصی نمیکنه مگر به وقت استایل دهی .
+    run this piece of code:
+    <span>Hello</span>
+    <span>World</span>
+    <span>Okay</span>
+    output:
+    HelloWorldOkay
+
+    So this is Inline element
+
+    only problem of span i cant change width of span
+    -->
+
+    <!--
+     یه ویژگی هست برای استایل دهی css به اسم display
+     اگه این وژگی مقدار inline بگیره برای یک پاراگراف مثلا میتونی کاری کنه که تمام
+     عرض گرفته نشده توسط تگ . بلکه به اندازه محتوی اندازه میگیره و میاد بقیه عناصر که خودکار inline هستند
+     رو روبروش اضافه میکنه
+    .
+    مشابه برای span اگه تگ display رو block بزاریم
+    -->
+
+    <!-- Display Property:
+    Block = تمام عرض صفحه در یک پیج سایت را اشغال میکند. عملا مانع نشتن عنصری در سمت چپ یا راست میشود .
+            <p> - <h1> to <h6> - <div> - <ol>,<ul>,<li> - <form>
+    Inline = یک نمایش درون خطی عنصر که فقط به اندازه ارتفاع و عرضش فضای لازم را اشغال میکند .
+            <span> - <img> - <a>
+    inline-Block = اگه هم بخوام عرض رو تغییر بدم هم متن هارو که پاراگراف یا . .. هسنتد رو داخل یک خط
+                داشته باشم ازش استفاده میکنم.
+    None= جوری عنصر رر محو میکنهیا کلا حذف میکه
+
+    Inline,Inline-Block, None -->
+
+    <!-- اگه قراره چیزی بسازید مثل قسمت سوال و ججواب . اگه بخوام یه قسمت حذف بشه چیکار کنم ؟
+       د. راه حل داری یکی همین dispav
+       استفاده از display: None
+
+       راه دوم:
+       ویژگی visibilty
+
+       visibilty: hidden
+       -->
+
+    <!--
+     Important for remember
+
+     1. content is everything
+     2. order comes from code
+     3.children sit on parents
+     -->
+
+    <!--
+     Position property:
+
+     1.static = استاتیک به معنای همراهی با قوانین html و پیشفرض است
+     2.relative position = موقعیت نسبی میاد از موقیت پیش فرض به موقعیت های جدید میبره
+                          درپایین مثلا عکس رو 30 پیکسل از لبه سمت چپ فاصله میده
+        img{
+            position: relative
+            left: 30 px}
+     3.coordinates: top,bottom,left,right
+     مختصات میدیم از هر لبه چقد فاصله بگیره.
+
+     یه سری نکات :
+     وقتی میخواهید یه عنصر رو حرکت بدید که موقعیت نسبی از قبل داشته
+     این بر موقعیت  چیزهای دیگه صفحه تاثیری نداره و چابجا نمیشه.
+
+     وقتی خصوصیات مختصات رو تغییر میدیم  از موقعیت قبلی ای که بود در واقع یه حاشیه از همان سمت به اندازه جابجایی ایجاد میشه .
+
+     4.Absolute: top,bottom,left,right
+     یک حاشیه از همان سمت اصلی ایجاد میکند اگه راست نوشتید پس از راست هست.
+
+     -->
+
+<!-- absolute:
+ روی عناصر در صفحه تاثیر گذار خواهد بود
+ نسبت به والد خود میتواند در هر جایی قرار بگیرد
+
+ position: absolute یعنی "از صف خارج شو و هر جا که دوست داری بایست!"
+دیگر کسی به تو کاری ندارد و تو هم به کسی کاری نداری! 😄
+
+fixed : موقعیت فیکس میشه حتی اگه اسکرول کنی سرجاش میمونه
+ -->
+</body>
+</html>
